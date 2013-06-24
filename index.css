@@ -1,0 +1,31 @@
+body
+{
+	padding-left: 8em;
+}
+u1.navbar
+{
+	list-style-type: none;
+	padding: 10px;
+	margin: 0;
+	position: absolute;
+	top: 5em;
+	left: 2em;
+	width: 9em;
+	font-size: 20px;
+}
+h1
+{
+	color: black;
+	text-align: center;
+}
+p
+{
+	font-family: "Times New Roman";
+	font-size: 20px;
+}
+img.center
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
