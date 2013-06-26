@@ -1,26 +1,28 @@
 html{
-	margin-right: 5%;
-	margin-left: 5%;
+	margin-right: 10%;
+	margin-left: 10%;
 	background-color: #AE83AB;
 }
 
 header{
-
+	border-radius: 30px;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+	background-color: #FFFFFF;
 }
 h1 {
 	font-size: 50px;
 	text-align: center;
-	font-family: 'Josefin Sans', Times, Georgia ,serif;
+	font-family: 'Dosis','Josefin Sans', Times, Georgia ,serif;
 	text-decoration: none;
 	text-transform: uppercase;
 	margin-top: 3%;
-	color: #AE83AB;
 
 }
 h1 a{
 	font-size: 50px;
 	text-align: center;
-	font-family: 'Josefin Sans', Times, Georgia ,serif;
+	font-family: 'Dosis','Josefin Sans', Times, Georgia ,serif;
 	text-decoration: none;
 	text-transform: uppercase;
 	margin-top: 3%;
@@ -50,7 +52,7 @@ hr {
 #nav{
 	list-style-type: none;
 	font-size: 24px;
-	font-family: 'Josefin Sans', Times, Georgia ,serif;
+	font-family: 'Dosis','Josefin Sans', Times, Georgia ,serif;
 	font-style: italic;
 	font-color: #000000;
 	margin: 0;
@@ -92,13 +94,16 @@ hr {
 
 }
 
-
 body
 {
 	background-color: #FFFFFF;
+	border-style: groove;
+	border-color: #AEA7A7 #000000;
+	border-width: 8px;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+
 }
-
-
 section {
 	float: left;
 	width: 60%;
@@ -106,13 +111,14 @@ section {
 	border-style: groove;
 	padding-left: 50px;
 	padding-right: 50px;
-	margin-left: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 p{
 	text-align: left;
-	font-family: 'Josefin Sans', Times, Georgia ,serif;
-	font-size: 20px;
+	font-family: 'Lora', 'Josefin Sans', Times, Georgia ,serif;
+	font-size: 16px;
 	text-indent: 20px;
 	font-color: #517E8E;
 	}
@@ -122,12 +128,17 @@ aside{
 	float: right;
 	display: block;
 	width: 30%;
+	height: 50%;
 
 }
 
 footer{
+	font-family: 'Dosis', 'Josefin Sans', Times, Georgia ,serif;
 	text-align: center;
-	background-color: #AE83AB;
+	margin-bottom: 3%;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+
 }
 img.twitter{
 	width: 2em;
@@ -149,5 +160,5 @@ img.flower
 }
 h2, h3 {
 	font-size: 18px;
-	font-family: 'Josefin Sans', Times, Georgia ,serif;
+	font-family: 'Lora', 'Josefin Sans', Times, Georgia, serif;
 }
