@@ -1,31 +1,153 @@
-body
-{
-	padding-left: 8em;
+html{
+	margin-right: 5%;
+	margin-left: 5%;
+	background-color: #AE83AB;
 }
-u1.navbar
-{
+
+header{
+
+}
+h1 {
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Josefin Sans', Times, Georgia ,serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 3%;
+	color: #AE83AB;
+
+}
+h1 a{
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Josefin Sans', Times, Georgia ,serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 3%;
+	color: #AE83AB;
+
+}
+
+h1 a:hover{
+	color: #000000;
+	text-decoration: none;
+}
+
+hr {
+	clear: both;
+
+}
+
+#socialheader {
+	float: right;
 	list-style-type: none;
-	padding: 10px;
-	margin: 0;
-	position: absolute;
-	top: 5em;
-	left: 2em;
-	width: 9em;
-	font-size: 20px;
 }
-h1
-{
-	color: black;
+
+#socialheader a {
+	list-style-type: none;
+}
+
+#nav{
+	list-style-type: none;
+	font-size: 24px;
+	font-family: 'Josefin Sans', Times, Georgia ,serif;
+	font-style: italic;
+	font-color: #000000;
+	margin: 0;
+	padding: 0;
+	margin-left: 55px;
+
+}
+#nav .wrap {
 	text-align: center;
 }
-p
-{
-	font-family: "Times New Roman";
-	font-size: 20px;
+#nav li {
+	display: inline;
+	float: center;
+	font-color: #000000;
+	padding-right: 10px;
+
+
 }
-img.center
+#nav a {
+	text-decoration: none;
+	list-style-type: none;
+	color: #AE83AB;
+
+}
+
+#nav a:visited{
+	text-decoration:none;
+	color: #AE83AB;
+
+}
+#nav a:hover{
+	text-decoration:underline;
+	color: #000000;
+
+}
+#nav a:active{
+	text-decoration:underline;
+	font-color: #AE83AB;
+
+}
+
+
+body
 {
+	background-color: #FFFFFF;
+}
+
+
+section {
+	float: left;
+	width: 60%;
+	display: block;
+	border-style: groove;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 10px;
+}
+
+p{
+	text-align: left;
+	font-family: 'Josefin Sans', Times, Georgia ,serif;
+	font-size: 20px;
+	text-indent: 20px;
+	font-color: #517E8E;
+	}
+
+
+aside{
+	float: right;
+	display: block;
+	width: 30%;
+
+}
+
+footer{
+	text-align: center;
+	background-color: #AE83AB;
+}
+img.twitter{
+	width: 2em;
+	height: 2em;
+}
+img.linkedin{
+	width: 2em;
+	height: 2em;
+}
+
+img.flower
+{
+	width: 500px;
+	height: 375px;
+	text-align: center;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+h2, h3 {
+	font-size: 18px;
+	font-family: 'Josefin Sans', Times, Georgia ,serif;
 }
